@@ -4,6 +4,7 @@ import UIKit
 
 class EndViewController: UIViewController {
 
+    @IBOutlet weak var EndScreenLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         
