@@ -38,6 +38,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="NextButton" destination="SXt-gZ-aHl" id="8Pu-Td-2Cl"/>
                         <outlet property="StartScreenLabel" destination="JM6-XK-IBI" id="dSv-yd-f0s"/>
                         <segue destination="K82-de-zWr" kind="presentation" identifier="SecondView" id="RzM-9z-FCo"/>
                     </connections>
