@@ -16,4 +16,11 @@ class SecondViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         
     }
+    @IBAction func BackButton(_ sender: Any) {
+        performSegue(withIdentifier: SegueManager.StartView, sender: sender)
+    }
+    @IBAction func NextButton(_ sender: Any) {
+        
+        performSegue(withIdentifier: SegueManager.EndView, sender: sender)
+    }
 }

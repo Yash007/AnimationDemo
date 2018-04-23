@@ -17,4 +17,7 @@ class StartViewController: UIViewController {
         
     }
 
+    @IBAction func NextButton(_ sender: Any) {
+        performSegue(withIdentifier: SegueManager.SecondView, sender: sender)
+    }
 }
